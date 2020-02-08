@@ -224,14 +224,12 @@ a.social {
   opacity: 0.2;
   transition: all .25s;
 }
-a.twitter {
-  background-image: url(twitter.svg);
-}
+
 a.linkedin {
-  background-image: url(linkedin.svg);
+  background-image: url(images/linkedin.svg);
 }
 a.github {
-  background-image: url(github.svg);
+  background-image: url(images/github.svg);
 }
 a.social:hover {
   opacity: 1;
