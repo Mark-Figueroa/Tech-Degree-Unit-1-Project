@@ -72,7 +72,7 @@ header {
 
 /* INDEX PAGE ONLY - Image in the center of the header image */
 
-header .profile-image1 {
+header .profile-image {
   margin-top: 50px;
   width: 163px;
   height: 200px;
@@ -80,7 +80,7 @@ header .profile-image1 {
   border: 3px solid white;
   transition: all .5s;
 }
-header .profile-image1:hover {
+header .profile-image:hover {
   transform: scale(1.2);
 }
 
