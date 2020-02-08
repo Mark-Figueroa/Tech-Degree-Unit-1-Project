@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+  
+  <meta charset="utf-8">
+  <title class="title tab">Mark's Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+  
+  </head>
+  
+  
+  
+  <body>
+
+    
+    <div class="main-nav">
+        <ul class="nav">
+          <li class="name">Mark Figueroa | <a href="https://www.anuidea.com" target="_blank"> Artist</a>, Web Designer, Developer and <a href="http://www.sphynxautomation.com" target="_blank">Automation Consultant</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="resume.html">Experience</a></li>
+          <li><a href="#">Photos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+       <header>
+  
+    <img src="http://placeimg.com/400/400/tech" alt="An image of Mark Figueroa." class="profile-imageALL">
+     
+    
+  
+  
+  </header>
+  
+
+    
+    <main class="flex">
+    <div class="card1">
+    <h1 class="card-title1">Schedule a meeting.</h1>
+    
+    <h2></h2>
+ 
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/mark-sphynx" style="min-width:320px;height:630px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<!-- Calendly inline widget end --> 
+      
+   
+      </div>
+      
+      
+      
+    </main> 
+    
+    
+          <footer>
+      <ul>
+        <li><a href="http://www.twitter.com" class="social twitter">Twitter</a></li>
+        <li><a href="#" class="social linkedin">LinkedIn</a></li>
+        <li><a href="#" class="social github">Github</a></li>
+      </ul>
+      <p class="copyright">Copyright 2020, Mark Figueroa</p>
+    </footer>
+    
+    
+  </body>
+
+
+
+</html>
