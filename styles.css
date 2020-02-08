@@ -32,6 +32,7 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
+  z-index:1;
 }
 .nav {
   display: flex;
@@ -54,9 +55,12 @@ a:hover {
   color: white
 }
 
+
+/* header and header image properties */
+
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/20150424_161936.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -65,65 +69,38 @@ header {
   line-height: 1.5;
 }
 
-header .profile-image0 {
-  margin-top: 50px;
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
-}
-header .profile-image0:hover {
-  transform: scale(1.2) rotate(720deg);
-}
+
+/* INDEX PAGE ONLY - Image in the center of the header image */
 
 header .profile-image1 {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 163px;
+  height: 200px;
+  border-radius: 5%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image1:hover {
+  transform: scale(1.2);
+}
+
+
+
+/* ALL PAGES - Image in the center of the header image */
+
+header .profile-imageALL {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+header .profile-imageALL:hover {
   transform: scale(1.2) rotate(30deg);
 }
 
-header .profile-image2 {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
-}
-header .profile-image2:hover {
-  transform: scale(1.2) rotate(60deg);
-}
 
-header .profile-image3 {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
-}
-header .profile-image3:hover {
-  transform: scale(1.2) rotate(90deg);
-}
-
-header .profile-image4 {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
-}
-header .profile-image4:hover {
-  transform: scale(1.2) rotate(120deg);
-}
 
 .tag {
   background-color: gray;
@@ -159,6 +136,15 @@ header .profile-image4:hover {
 .card:hover {
   border-color: teal;
   transform: scale(1.03)
+}
+.card0 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 700px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
 }
 
 .card1 {
@@ -296,11 +282,27 @@ a.social:hover {
   
 }
 
+/* adds and updates*/
   h3 {
     color:blue;
     letter-spacing:1px;
   }
-  
+.card-title0 {
+  text-align:center;
+  color:white;
+  border: solid black 3px;
+  background:blue;
+  border-radius:2%;
+  margin-top: 15px;
+}
+
+.card-title0:hover {
+  text-align:center;
+  color:white;
+  border: solid black 3px;
+  background:red;
+} 
+
 .card-title1 {
   text-align:center;
   color:white;
@@ -316,4 +318,23 @@ a.social:hover {
   border: solid black 3px;
   background:white;
   transform:scale(1.1);
+}
+
+.calendly-widget:hover {
+  color:black:
+}
+
+/*---hobbies page images*/
+
+.hobbies-img {
+ max-width:250px;
+}
+
+.hobbies-img:hover {
+ transform:scale(1.4);
+    border: solid red 2px;
+}
+
+.table{
+display:flex;
 }
